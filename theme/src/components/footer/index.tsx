@@ -27,7 +27,7 @@ const Footer: FunctionComponent<FooterProps> = ({menu, owner}) => (
       </StyledNav>
       <div>
         <Copyright>
-          <strong><a href={`https://pro.fues.us`} target="_blank">FUESVC&trade;</a> {owner.toUpperCase()}</strong>
+          <strong><a href={`https://pro.fues.us`} target="_blank">IoTSpy&trade;</a> {owner}</strong>
           <br/><br/>&copy; {new Date().getFullYear()}
         </Copyright>
         <DesignBy>

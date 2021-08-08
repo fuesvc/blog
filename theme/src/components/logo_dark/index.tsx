@@ -11,15 +11,15 @@ interface LogoProps {
 
 const LogoImage = styled.img`
   margin-right: 12px;
-  width: 64px;
+  width: 48px;
   @media (max-width: ${Theme.breakpoints.sm}) {
   }
 `;
 
 const HomeLink = styled(Link)`
   align-self: center;
-  width: 64px;
-  padding-top: 0rem;
+  width: 48px;
+  padding-top: 4px;
 `;
 
 const Logo: FunctionComponent<LogoProps> = ({title}) => {
@@ -27,7 +27,7 @@ const Logo: FunctionComponent<LogoProps> = ({title}) => {
   (
     useStaticQuery(graphql`
       query {
-        file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "fues-brand-dark"}) {
+        file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "Logo"}) {
           extension
           publicURL
         }

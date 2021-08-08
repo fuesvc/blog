@@ -67,11 +67,11 @@ export const NavLink = styled(Link)<{ dark?: boolean}>`
   padding: 0px 16px;
   &:hover {
     opacity: 1;
-    color: #FF4500;
+    color: ${Theme.layout.primaryColor};
   }
   &.active {
     opacity: 1;
-    color: ${Theme.layout.backgroundColor};
+    color: ${Theme.layout.primaryColor};
     font-style: normal;
   }
 `;
@@ -83,7 +83,7 @@ export const SearchContainer = styled.div`
 
 export const ToggleSearchButton = styled.button`
   cursor: pointer;
-  color: #FF4500;
+  color: ${Theme.layout.linkColor};
   opacity: .8;
   background: none;
   outline: none;

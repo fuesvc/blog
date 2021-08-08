@@ -12,13 +12,13 @@ const getRandomUnsplashImgUrl = () => {
 const Theme: DefaultTheme = {
   layout: {
     backgroundColor: `#f8fafe`,
-    primaryColor: `#F12711`,
-    linkColor: `#F5AF19`,
+    primaryColor: `#3A7BD5`,
+    linkColor: `#0E0E10`,
   },
   breakpoints: {
     xs: `425px`,
     sm: `576px`,
-    md: `768px`,
+    md: `576px`,
     lg: `892px`,
     xl: `1000px`,
   },

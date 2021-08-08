@@ -7,20 +7,17 @@
 module.exports = {
   siteMetadata: {
     title: `Blog`,
+    owner: 'Blog 2',
     siteUrl: `https://blog.fues.us/`,
-    description: `the open guide to %TOPICS%`,
+    description: `a guide to %TOPICS%`,
     topics: [
-      'Machine Learning',
+      'Internet of Things (IoT)',
       'Cloud Computing',
-      'Python',
+      'NextJS',
       'React',
-      'JAMStack'
+      'Machine Learning'
     ],
     menu: [
-      {
-        name: 'Start',
-        path: '/start-here'
-      },
       {
         name: 'About',
         path: '/about'
@@ -49,18 +46,20 @@ module.exports = {
       name: `Naval Monga`,
       // <b>&copy;&nbsp;2018-${new Date().getFullYear()}.</b>
       description: `
-        <h2>FUES<span>VC</span>&trade;&nbsp;BLOG</h2>
+        <h2>IoT<span>Spy</span>&trade;&nbsp;Blog</h2>
         <p>&copy;&nbsp;${new Date().getFullYear()}</p>
+        <p>Audit and protect smart-home systems, networks, and data.</p>
+        <p>Learn more</p>
         <br/>
         <br/>
-        <a href="https://github.com/fuesvc/blog" rel="noopener" target="_blank">Edit the source&nbsp;&rarr;</a>`,
+        <a href="https://github.com/fuesvc/blog" rel="noopener" target="_blank">Contribute&nbsp;&rarr;</a>`,
       social: {
-        youtube: `https://www.youtube.com/channel/UCXwldfPBw8ipE_9yT-psufQ`,
+        youtube: ``,
         facebook: ``,
-        twitter: `https://twitter.com/fuesvc`,
+        twitter: `https://twitter.com/iotspy`,
         linkedin: ``,
-        instagram: `https://instagram.com/fuesvc`,
-        github: `https://github.com/fuesvc`,
+        instagram: ``,
+        github: `https://github.com/iotspy`,
         twitch: ``,
       }
     }

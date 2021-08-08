@@ -35,13 +35,13 @@ const Header: FunctionComponent<HeaderProps> = ({title, description, menu, topic
     <StyledHeader>
       <StyledNavigation title={title} menu={menu} showSearch={search}/>
       <TitleWrapper>
-        <Title>fues<ColorTitle>vc</ColorTitle>&trade;&nbsp;{title}</Title>
+        <Title>iot<ColorTitle>spy</ColorTitle>&trade;&nbsp;{title}</Title>
         <Description>
           {description}.
         </Description>
         <SupportedBy to={'/about#supporters'}>supported by you</SupportedBy>
-        <ModelViewer url={`https://cdn.fues.us/model/${randomModel}.glb`}/>
-        <DownArrow><span>👇</span></DownArrow>
+        <ModelViewer url={`https://kind-minsky-48db2b.netlify.app/model/${randomModel}.glb`}/>
+        <DownArrow><span>↓</span></DownArrow>
       </TitleWrapper>
     </StyledHeader>
   );

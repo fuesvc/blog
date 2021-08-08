@@ -3,12 +3,13 @@ title: "Introduction to Go"
 path: "/intro-to-go"
 tags: ["Software"]
 featuredImage: "./cover.jpg"
-excerpt: A quick overview of the Go language from the free tutorial on the freeCodeCamp's YouTube channel.
+excerpt: A quick introduction to Golang from tutorials found on freeCodeCamp's YouTube channel.
 created: 2020-05-27
 updated: 2020-05-27
 ---
 
 > This tutorial is based on a portion of the Golang Tutorial by Michael Van Sickle on freeCodeCamp's YouTube channel.
+*Cover image by [@mitchel3uo on Unsplash](https://unsplash.com/@mitchel3uo).*
 
 ## Who created Go?
 
@@ -61,8 +62,3 @@ i = 42
 var j int = 44
 k := 46
 ```
-
-
----
-
-*Cover by [@mitchel3uo](https://unsplash.com/@mitchel3uo) on Unsplash.*
